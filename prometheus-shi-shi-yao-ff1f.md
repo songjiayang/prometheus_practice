@@ -2,6 +2,8 @@
 
 作为新一代开源解决方案，很多理念与 Google SRE 运维之道不谋而合。
 
+主要功能特性：
+
 #### 为什么选择 Prometheus
 
 * Prometheus 是按照 Google SRE 运维之道的理念构建的，具有实用性和前瞻性。
