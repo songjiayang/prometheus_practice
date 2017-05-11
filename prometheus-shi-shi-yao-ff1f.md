@@ -33,8 +33,7 @@
 2. 当新拉取的数据大于配置的 buffer 的时候，Prometheus 会将数据持久化到磁盘（使用 local storage, 如果使用 remote storage 将持久化到云端）
 3. Prometheus 可以配置 rules，然后定时查询数据，当触发条件的时候，会将 alert 推送到配置的 Alertmanager。
 4. Alertmanager 收到警告的时候，可以根据配置，聚合，去重，降噪，最后发送警告。
-
-
+5. 可以使用 API， Prometheus Console 或者 Grafana 查询和聚合数据。
 
 #### 为什么选择 Prometheus
 
