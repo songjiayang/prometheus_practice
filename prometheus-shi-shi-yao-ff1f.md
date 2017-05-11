@@ -6,9 +6,8 @@
 
 * 多维 [数据模型](https://prometheus.io/docs/concepts/data_model/)（时序由 metric 名字和 k/v 的 labels 构成）。
 * 灵活的查询语句（[PromQL](https://prometheus.io/docs/querying/basics/)）。
-* 
-#### 为什么选择 Prometheus
-
+* 无依赖存储，支持 local 和 remote 不同模型。
+* * #### 为什么选择 Prometheus
 * Prometheus 是按照 Google SRE 运维之道的理念构建的，具有实用性和前瞻性。
 
 * Prometheus 社区非常活跃，基本稳定在 1个月1个版本的迭代速度；从去年 v1.01 开始接触使用以来，到目前发布的 v1.6.1 以及最新最新的 v2.0 ，你会发现 Prometheus 一直在进步，在优化。
