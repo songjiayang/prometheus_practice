@@ -7,7 +7,7 @@
 * 多维 [数据模型](https://prometheus.io/docs/concepts/data_model/)（时序由 metric 名字和 k/v 的 labels 构成）。
 * 灵活的查询语句（[PromQL](https://prometheus.io/docs/querying/basics/)）。
 * 无依赖存储，支持 local 和 remote 不同模型 。
-* 采用 http 协议，使用 pull 模式，拉取数据
+* 采用 http 协议，使用 pull 模式，拉取数据，简单易懂。
 * * #### 为什么选择 Prometheus
 * Prometheus 是按照 Google SRE 运维之道的理念构建的，具有实用性和前瞻性。
 
