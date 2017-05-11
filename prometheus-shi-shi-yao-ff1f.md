@@ -4,7 +4,7 @@
 
 **主要功能：**
 
-* 多维 [数据模型](https://prometheus.io/docs/concepts/data_model/)（时序由 metric 名字和 k/v 的 labels 构成）
+* 多维 [数据模型](https://prometheus.io/docs/concepts/data_model/)（时序由 metric 名字和多组 k/v 的 labels 构成）
 
 #### 为什么选择 Prometheus
 
