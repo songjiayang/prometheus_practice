@@ -5,7 +5,8 @@
 **主要功能：**
 
 * 多维 [数据模型](https://prometheus.io/docs/concepts/data_model/)（时序由 metric 名字和 k/v 的 labels 构成）。
-
+* 灵活的查询语句（[PromQL](https://prometheus.io/docs/querying/basics/)）。
+* 
 #### 为什么选择 Prometheus
 
 * Prometheus 是按照 Google SRE 运维之道的理念构建的，具有实用性和前瞻性。
