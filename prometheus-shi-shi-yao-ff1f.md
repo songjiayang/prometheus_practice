@@ -19,6 +19,12 @@
 * 各种汇报数据的 [exporters](https://prometheus.io/docs/instrumenting/exporters/) ，例如汇报机器数据的 node\_exporter,  汇报 MongoDB 信息的 [MongoDB exporter](https://github.com/dcu/mongodb_exporter) 等等。
 * 用于告警通知管理的 [alertmanager](https://github.com/prometheus/alertmanager) 。
 
+#### **基础架构**
+
+一图胜千言，先来张官方的架构图：
+
+![](https://prometheus.io/assets/architecture.svg)
+
 #### 为什么选择 Prometheus
 
 * Prometheus 是按照 Google SRE 运维之道的理念构建的，具有实用性和前瞻性。
