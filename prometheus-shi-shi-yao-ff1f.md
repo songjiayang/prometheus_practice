@@ -2,8 +2,6 @@
 
 作为新一代开源解决方案，很多理念与 Google SRE 运维之道不谋而合。
 
-
-
 #### **主要功能**
 
 * 多维 [数据模型](https://prometheus.io/docs/concepts/data_model/)（时序由 metric 名字和 k/v 的 labels 构成）。
@@ -12,6 +10,10 @@
 * 采用 http 协议，使用 pull 模式，拉取数据，简单易懂 。
 * 监控目标，可以采用服务发现或静态配置的方式 。
 * 支持多种统计数据模型，图形化友好 。
+
+#### **核心组件**
+
+* Prometheus Server， 主要用于抓取数据和存储时序数据
 
 #### 为什么选择 Prometheus
 
