@@ -14,7 +14,8 @@
 #### **核心组件**
 
 * [Prometheus Server](https://github.com/prometheus/prometheus)， 主要用于抓取数据和存储时序数据，另外还提供查询和 Alert Rule 配置管理。
-* [Client libraries](https://prometheus.io/docs/instrumenting/clientlibs/) ，用于对接 Prometheus Server, 可以查询和上报数据。 
+* [client libraries](https://prometheus.io/docs/instrumenting/clientlibs/)，用于对接 Prometheus Server, 可以查询和上报数据。 
+* [push gateway](https://github.com/prometheus/pushgateway) ，用于批量，短期的监控数据的汇总节点，主要用于业务数据汇报等。
 
 #### 为什么选择 Prometheus
 
