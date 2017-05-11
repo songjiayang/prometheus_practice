@@ -25,6 +25,8 @@
 
 ![](https://prometheus.io/assets/architecture.svg)
 
+从这个架构图，也可以看出 Prometheus 的主要模块包含， Server,  Exporters, Pushgateway, PromQL, Alertmanager, WebUI
+
 #### 为什么选择 Prometheus
 
 * Prometheus 是按照 Google SRE 运维之道的理念构建的，具有实用性和前瞻性。
