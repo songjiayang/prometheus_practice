@@ -25,7 +25,7 @@
 
 ![](https://prometheus.io/assets/architecture.svg)
 
-从这个架构图，也可以看出 Prometheus 的主要模块包含， Server,  Exporters, Pushgateway, PromQL, Alertmanager, WebUI
+从这个架构图，也可以看出 Prometheus 的主要模块包含， Server,  Exporters, Pushgateway, PromQL, Alertmanager, WebUI 等。
 
 #### 为什么选择 Prometheus
 
