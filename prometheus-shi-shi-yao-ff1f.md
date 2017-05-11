@@ -21,9 +21,11 @@
 
 #### **基础架构**
 
-一图胜千言，先来张官方的架构图：
+一图胜千言，先来张官方的架构图，
 
 ![](https://prometheus.io/assets/architecture.svg)
+
+
 
 #### 为什么选择 Prometheus
 
