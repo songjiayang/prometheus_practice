@@ -1,4 +1,4 @@
-Prometheus 是由 SoundCloud 开源的新一代监控告警解决方案，从 2012 年开始编写，2015 年在 github 上开源
+Prometheus 是由 SoundCloud 开源的新一代监控告警解决方案，从 2012 年开始编写代码，再到 2015 年 github 上开源
 
 #### 为什么选择 Prometheus
 
