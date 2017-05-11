@@ -29,7 +29,7 @@
 
 从这个架构图，也可以看出 Prometheus 的主要模块包含， Server,  Exporters, Pushgateway, PromQL, Alertmanager, WebUI 等。
 
-它大致逻辑是这样：
+它大致使用逻辑是这样：
 
 1. Prometheus server 定期从静态配置的 targets 或者服务发现的 targets 拉取数据。
 2. 当新拉取的数据大于配置的 buffer 的时候，Prometheus 会将数据持久化到磁盘（使用 local storage, 如果使用 remote storage 将持久化到云端）
