@@ -13,7 +13,7 @@
 
 #### **核心组件**
 
-* Prometheus Server， 主要用于抓取数据和存储时序数据，另外还提供查询和 Alert Rule 配置和管理。 
+* Prometheus Server， 主要用于抓取数据和存储时序数据，另外还提供查询和 Alert Rule 配置与管理。 
 
 #### 为什么选择 Prometheus
 
