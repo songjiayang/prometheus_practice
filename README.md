@@ -24,7 +24,9 @@ Prometheus 作为监控后起之秀，虽然还有做的不够好的地方，但
 
 你准备好了吗？接下来就让我们一起开始这段神奇旅行吧！
 
+## 技术交流 {#技术交流}
 
+欢迎关注 PrometheusPractice 社区微博 [@dockerpool](http://weibo.com/u/5345404432)
 
-
+，或加入 Docker 技术交流 QQ 群或微信组，分享 Docker 资源，交流 Docker 技术。
 
