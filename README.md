@@ -1,5 +1,7 @@
 # Prometheus 实战
 
+v0.1.0
+
 在过去一年左右时间里，我们使用 Prometheus 完成了对几个机房的基础和业务监控，大大提高了我们服务质量，以及 oncall 水平，在此特别感谢 Promethues 这样优秀的开源软件。
 
 当初选择 Prometheus 并不是偶然，因为：
