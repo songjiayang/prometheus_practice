@@ -10,7 +10,6 @@
 
   $ git config user.email "your email"
   ```
-
 * 修改代码后提交，并推送到自己的仓库。
 
   ```
