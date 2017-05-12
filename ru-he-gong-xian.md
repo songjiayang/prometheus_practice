@@ -3,24 +3,17 @@
 * 在 GitHub 上`fork`到自己的仓库，如 username`/prometheus_practice`，然后`clone`到本地，并设置用户信息。
 
 * ```
-  $ git clone git@github.com:docker_user/docker_practice.git
-  $ 
-  cd
-   docker_practice
-  $ git config user.name 
-  "yourname"
-
-  $ git config user.email 
-  "your email"
+  $ git clone git@github.com:username/prometheus_practice.git
+  $ cd prometheus_practice
+  $ git config user.name "yourname"
+  $ git config user.email "your email"
   ```
 * 修改代码后提交，并推送到自己的仓库。
 
   ```
-  $ 
-  #do some change on the content
+  $ #do some change on the content
 
-  $ git commit -am 
-  "Fix issue #1: change helo to hello"
+  $ git commit -am "Fix issue #1: change helo to hello"
 
   $ git push
   ```
@@ -34,9 +27,7 @@
   $ git fetch upstream
   $ git checkout master
   $ git rebase upstream/master
-  $ git push 
-  -f
-   origin master
+  $ git push -f origin master
   ```
 
 
