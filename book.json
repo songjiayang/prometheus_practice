@@ -1,0 +1,30 @@
+{
+	"title": "Prometheus 实战",
+	"author": "songjiayang",
+	"plugins": [
+		"image-captions",
+		"github-buttons",
+		"page-treeview"
+	],
+	"pluginsConfig": {
+		"image-captions": {
+			"attributes": {
+				"width": "600"
+			},
+			"caption": "图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_"
+		},
+		"github-buttons": {
+			"repo": "songjiayang/prometheus_practice",
+			"types": [
+				"star",
+				"watch"
+			],
+			"size": "small"
+		},
+		"page-treeview": {
+			"copyright": "Copyright &#169; songjiayang",
+			"minHeaderCount": "2",
+			"minHeaderDeep": "2"
+		}
+	}
+}
