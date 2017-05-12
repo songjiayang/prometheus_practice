@@ -1,6 +1,6 @@
 ## 如何贡献项目 {#如何贡献项目}
 
-在 GitHub 上`fork`到自己的仓库，如`docker_user/docker_practice`，然后`clone`到本地，并设置用户信息。
+* 在 GitHub 上`fork`到自己的仓库，如`docker_user/docker_practice`，然后`clone`到本地，并设置用户信息。
 
 * ```
   $ git 
@@ -25,7 +25,6 @@
   "Fix issue #1: change helo to hello"
 
   $ git push
-
   ```
 
 * 在 GitHub 网站上提交 pull request。
