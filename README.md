@@ -28,3 +28,7 @@ Prometheus 作为监控后起之秀，虽然还有做的不够好的地方，但
 
 欢迎关注 PrometheusPractice 社区微博 ，或加入 Prometheus 技术交流 QQ 群或微信组，分享 Prometheus 资源，交流 Prometheus 技术。
 
+* QQ 群 I （可加）：341410255
+
+
+
