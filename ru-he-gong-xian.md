@@ -3,9 +3,7 @@
 * 在 GitHub 上`fork`到自己的仓库，如 username`/prometheus_practice`，然后`clone`到本地，并设置用户信息。
 
 * ```
-  $ git 
-  clone
-   git@github.com:docker_user/docker_practice.git
+  $ git clone git@github.com:docker_user/docker_practice.git
   $ 
   cd
    docker_practice
