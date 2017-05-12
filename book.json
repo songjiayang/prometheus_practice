@@ -3,8 +3,7 @@
 	"author": "songjiayang",
 	"plugins": [
 		"image-captions",
-		"github-buttons",
-		"page-treeview"
+		"github-buttons"
 	],
 	"pluginsConfig": {
 		"image-captions": {
@@ -20,11 +19,6 @@
 				"watch"
 			],
 			"size": "small"
-		},
-		"page-treeview": {
-			"copyright": "Copyright &#169; songjiayang",
-			"minHeaderCount": "2",
-			"minHeaderDeep": "2"
 		}
 	}
 }
