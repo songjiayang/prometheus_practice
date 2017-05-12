@@ -2,7 +2,7 @@
 
 * 在 GitHub 上`fork`到自己的仓库，如 `xxx/prometheus_practice`，然后`clone`到本地，并设置用户信息。
 
-* ```
+* ```bash
   $ git clone git@github.com:username/prometheus_practice.git
 
   $ cd prometheus_practice
@@ -27,9 +27,13 @@
 
   ```
   $ git remote add upstream https://github.com/songjiayang/prometheus_practice
+
   $ git fetch upstream
+
   $ git checkout master
+
   $ git rebase upstream/master
+
   $ git push -f origin master
   ```
 
