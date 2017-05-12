@@ -23,7 +23,7 @@
 * 定期使用项目仓库内容更新自己仓库内容。
 
   ```
-  $ git remote add upstream https://github.com/yeasy/docker_practice
+  $ git remote add upstream https://github.com/songjiayang/docker_practice
   $ git fetch upstream
   $ git checkout master
   $ git rebase upstream/master
