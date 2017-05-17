@@ -5,7 +5,7 @@
 ## 环境准备
 
 * linux amd64 (ubuntu server)
-* Prometheus 1.6.2
+* prometheus 1.6.2
 
 ## 下载 Prometheus Server
 
