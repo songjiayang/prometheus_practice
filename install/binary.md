@@ -1,11 +1,11 @@
 # 二进制包安装
 
-我们可以到 Prometheus 二进制[下载页面](https://prometheus.io/download/),选择自己需要的系统版本，
-下面我们将以 ubuntu server 作为演示。
+我们可以到 Prometheus 二进制[下载页面](https://prometheus.io/download/)，选择自己需要的系统版本，下面我们将以 ubuntu server 作为演示。
 
 ## 环境准备
 
 * linux amd64 (ubuntu server)
+* Prometheus 1.6.2
 
 ## 下载 Prometheus Server
 
