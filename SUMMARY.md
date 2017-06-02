@@ -15,7 +15,6 @@
 * [PromQL](promql/README.md)
   * [PromQL 基本使用](promql/summary.md)
   * [与 SQL 对比](promql/sql.md)
-  * [与 InfluxDB 对比](promql/influxdb.md)
 * [数据可视化](visualiztion/README.md)
   * [Web Console](visualiztion/console.md)
   * [Grafana](visualiztion/grafana.md)
