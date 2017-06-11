@@ -66,7 +66,7 @@ Grafana 本身支持 Prometheus 数据源，故不需要安装其他插件。
 
 ![grafana-prometheus-data-source](http://7o512j.com1.z0.glb.clouddn.com/grafana-prometheus-data-source.png)
 
-目前位置，Grafana 已经和 Prometheus 连上了，你将看到这样的 Dashboard
+目前为止，Grafana 已经和 Prometheus 连上了，你将看到这样的 Dashboard
 
 ![grafana-default-dashbord](http://7o512j.com1.z0.glb.clouddn.com/grafana-default-dashbord.png)
 
@@ -85,11 +85,11 @@ Grafana 本身支持 Prometheus 数据源，故不需要安装其他插件。
 ![grafana-add-graph](http://7pulfm.com1.z0.glb.clouddn.com/grafana-add-graph.png)
 
 点击  `Panel Title` -> `Edit` 进入 Panel 编辑页面，并在 `Metrics` 中
-的 `Metric lookup` 选择 `goroutines`
+的 `Metric lookup` 选择 `go_goroutines`
 
 ![grafana-edit-panel](http://7pulfm.com1.z0.glb.clouddn.com/grafana-edit-panel.png)
 
-你可以直接在管理界面中直接写 Prometheus 的 查询语句，修改查询语句的 step 数值。
+你也可以直接在管理界面中填写 Prometheus 的查询语句，以及修改查询的 step 数值。
 
 当你修改了 Dashboard 后，记得点击顶部的 `Save dashboard` 按钮，或直接 `CTRL+S` 保存。
 
@@ -101,4 +101,4 @@ Grafana 本身支持 Prometheus 数据源，故不需要安装其他插件。
 
 ## 总结
 
-Grafana 是一款非常漂亮，强大的监视分析平台，本身支持了 Proemtheus 数据源，所以在做数据和监视可视化的时候，Grafana + Prometheus 是个不错的选择。
+Grafana 是一款非常漂亮，强大的监视分析平台，本身支持了 Prometheus 数据源，所以在做数据和监视可视化的时候，Grafana + Prometheus 是个不错的选择。
