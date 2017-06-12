@@ -1,6 +1,6 @@
 # alerting
 
-通常我们可以使用运行参数 `-alertmanager.xxx` 来配置 Alertmanager, 但是这样不够灵活，没有办法做到动态更新加载,已经动态定义告警属性。
+通常我们可以使用运行参数 `-alertmanager.xxx` 来配置 Alertmanager， 但是这样不够灵活，没有办法做到动态更新加载，以及动态定义告警属性。
 
 所以 `alerting` 配置主要用来解决这个问题，它能够更好的管理 Alertmanager, 主要包含 2 个参数：
 

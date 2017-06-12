@@ -4,7 +4,7 @@ Prometheus 启动的时候，可以加载运行参数 `-config.file` 指定配�
 
 在配置文件中我们可以指定 global, alerting, rule_files, scrape_configs, remote_write, remote_read 等属性。
 
-其代码结构体定义为这样：
+其代码结构体定义为：
 
 ```
 // Config is the top-level configuration for Prometheus's config files.
@@ -25,7 +25,7 @@ type Config struct {
 }
 ```
 
-配置文件结构大概为这样：
+配置文件结构大概为：
 
 ```
 global:
