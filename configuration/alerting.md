@@ -1,4 +1,4 @@
-# alerting
+# 告警配置
 
 通常我们可以使用运行参数 `-alertmanager.xxx` 来配置 Alertmanager， 但是这样不够灵活，没有办法做到动态更新加载，以及动态定义告警属性。
 

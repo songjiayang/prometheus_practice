@@ -1,4 +1,4 @@
-# rule_files
+# 规则配置
 
 `rule_files` 主要用于配置 rules 文件，它支持多个文件以及文件目录。
 
