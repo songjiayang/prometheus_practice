@@ -16,7 +16,7 @@
   ```
   $ #do some change on the content
 
-  $ git commit -am "Fix issue #1: change helo to hello"
+  $ git commit -m "Fix issue #1: change helo to hello"
 
   $ git push
   ```
