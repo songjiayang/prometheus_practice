@@ -1,4 +1,4 @@
-# 数据结构
+# 数据模型
 
 Prometheus 存储的是[时序数据](https://en.wikipedia.org/wiki/Time_series), 即按照相同时序(相同的名字和标签)，以时间维度存储连续的数据的集合。
 
