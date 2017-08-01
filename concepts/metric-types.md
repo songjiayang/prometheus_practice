@@ -11,7 +11,7 @@ Counter 表示收集的数据是按照某个趋势（增加／减少）一直变
 
 ## Gauge
 
-Gauge 表示搜集的数据是一个瞬时的，与时间没有关系，可以任意变高变低，往往可以用来记录内存使用率，磁盘使用率等。
+Gauge 表示搜集的数据是一个瞬时的，与时间没有关系，可以任意变高变低，往往可以用来记录内存使用率、磁盘使用率等。
 
 例如 Prometheus server 中 `go_goroutines`,  表示 Prometheus 当前 goroutines 的数量。
 
@@ -23,7 +23,7 @@ Histogram 由 `<basename>_bucket{le="<upper inclusive bound>"}`，`<basename>_bu
 
 ## Summary
 
-Summary 和 Histogram 类似，由 `<basename>{quantile="<φ>"}`，`<basename>_sum`，`<basename>_count` 组成，主要用于表示一段时间范围内对数据进行采样，（通常是请求持续时间或响应大小），它直接存储了 quantile 数据，而不是根据统计区间计算出来的。
+Summary 和 Histogram 类似，由 `<basename>{quantile="<φ>"}`，`<basename>_sum`，`<basename>_count` 组成，主要用于表示一段时间内数据采样结果，（通常是请求持续时间或响应大小），它直接存储了 quantile 数据，而不是根据统计区间计算出来的。
 
 例如 Prometheus server 中 `prometheus_target_interval_length_seconds`。
 
