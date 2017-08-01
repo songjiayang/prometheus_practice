@@ -10,7 +10,7 @@
   * [二进制包安装](install/binary.md)
   * [Docker 安装](install/docker.md)
 * [基础概念](concepts/README.md)
-  * [数据模型](concepts/concepts.md)
+  * [数据模型](concepts/data-model.md)
   * [Metric types](concepts/metric-types.md)
   * [作业与实例](concepts/jobs-and-instances.md)
 * [PromQL](promql/README.md)
