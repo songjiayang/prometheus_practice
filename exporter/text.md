@@ -10,7 +10,7 @@ Exporter 收集的数据转化的文本内容以行 (`\n`) 为单位，空行将
 
 - 以 `# HELP` 开头表示 metric 帮助说明。
 - 以 `# TYPE ` 开头表示定义 metric 类型，包含 `counter`, `gauge`, `histogram`, `summary`, 和 `untyped` 类型。
-- 其他表示一般注视，供阅读使用，将被 Prometheus 忽略。
+- 其他表示一般注释，供阅读使用，将被 Prometheus 忽略。
 
 ## 采样数据
 
