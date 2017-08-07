@@ -1,6 +1,6 @@
 # 其他 Exporter 简介
 
-除了 node_exporter 我们还会更具自己的业务选择安装其他 exporter 或者自己编写，比较常用的 exporter 有，
+除了 node_exporter 我们还会根据自己的业务选择安装其他 exporter 或者自己编写，比较常用的 exporter 有，
 
 - [Memcached exporter](https://github.com/prometheus/memcached_exporter) 负责收集 Memcached 信息
 - [MySQL server exporter](https://github.com/prometheus/mysqld_exporter) 负责收集 Mysql Sever 信息
