@@ -33,6 +33,7 @@
   * [Sample Exporter](exporter/sample.md)
   * [Node Exporter 安装使用](exporter/nodeexporter.md)
   * [Node Exporter 常用查询](exporter/nodeexporter_query.md)
+  * [Node Exporter Grafana 模版](exporter/nodeexporter_grafana_template.md)
   * [其他 Exporter 介绍](exporter/other.md)
 * [Pushgateway](pushgateway/README.md)
     * [Pushgateway 是什么？](pushgateway/why.md)
