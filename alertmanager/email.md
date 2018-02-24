@@ -9,13 +9,10 @@
 
 假设该实验运行在本地机器上, Prometheus 默认端口为 9090，Alertmanager 默认端口为 9093。
 
-### step 1: 下载 Alertmanager
-
-下载链接：https://github.com/prometheus/prometheus/releases
-
-### step 2: 修改 AlertManager 配置文件
+### 修改 AlertManager 配置文件
 
 其中一些关键配置如下：
+
 ```
 global:
   smtp_smarthost: 'smtp.qq.com:587'
@@ -35,7 +32,7 @@ receivers:
     - to: 'team-X+alerts@example.org'
 ```
 
-### step 3: 在prometheus下添加 alert.rules 文件
+### 在prometheus下添加 alert.rules 文件
 
 文件中写入以下简单规则作为示例。
 ```
@@ -48,19 +45,20 @@ ALERT memory_high
   }
 ```
 
-### step 4: 修改 prometheus.yml 文件
+### 修改 prometheus.yml 文件
+
 添加以下规则：
 ```
 rule_files:
   - "alert.rules"
 ```
 
-### step 5： 启动AlertManager服务
+### 启动AlertManager服务
 ```
 ./Alertmanager -config.file=simple.yml
 ```
 
-### step 6: 启动prometheus服务
+### 启动prometheus服务
 ```
 ./prometheus -Alertmanager.url=http://localhost:9093
 ```
