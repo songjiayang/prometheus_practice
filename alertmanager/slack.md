@@ -15,7 +15,7 @@
 
 ### 配置步骤
 
-Step1:  为 #test 频道创建一个 incomming webhooks 应用。
+Step1: 为 #test 频道创建一个 incomming webhooks 应用。
 
 - 点击频道标题，选择 `Add an app or integration`
 
@@ -30,11 +30,11 @@ Step1:  为 #test 频道创建一个 incomming webhooks 应用。
 Step2: 修改 prometheus rules，在 ANNOTATIONS 中添加特定字段。
 
 v1.x rule 写法：
- 
+
 ```
 ALERT InstanceStatus
  IF up {job="node"}== 0
- FOR 10s
+ FOR 15s
  LABELS {
    instance = "",
  }
@@ -52,7 +52,7 @@ v2.x alert rule 写法：
 ```
 - alert: InstanceStatus
   expr: up {job="node"} == 0
-  for: 10s
+  for: 15s
   labels:
     instance: ""
   annotations:
@@ -70,6 +70,7 @@ Step3: 修改 Alertmanager 配置。
 使用 `slack_configs` 来配置 slack 的告警接收渠道：
 
 ```
+
 receivers:
   - name: 'slack'
     slack_configs:
@@ -79,13 +80,12 @@ receivers:
         title: "{{.CommonAnnotations.summary}}"
         title_link: "{{.CommonAnnotations.link}}"
         color: "{{.CommonAnnotations.color}}"
-      
+
 ```
 
 配置说明：
 
 - 按 alertname 分组。
-- 相同组，如果事件没有恢复，每隔 10s 发送一次（主要为了测试）。
 - slack_configs 配置中，使用了 template 语句，通过 CommonAnnotations 查找字段。
 - 插入外链不仅可以使用 title_link, 还可以使用 slack link 标记语法 <htttpxxxxxx| Click here>。
 
