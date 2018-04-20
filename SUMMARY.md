@@ -67,7 +67,6 @@
 * [Prometheus 与容器](container/README.md)
     * [Docker](container/docker.md)
     * [Kubernetes](container/k8s.md)
-    * [Swarm](container/swarm.md)
 * [Prometheus 常见服务监控](service/README.md)
     * [Nginx](service/nginx.md)
     * [Memcached](service/memcached.md)
