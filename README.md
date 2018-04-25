@@ -47,3 +47,8 @@ Prometheus 作为监控后起之秀，虽然还有做的不够好的地方，但
   * 个人公众号
 
   ![GitHub Logo](https://songjiayang.gitbooks.io/go-basic-courses/content/pics/easy-hacking.jpg)
+  
+## GitHub 关注曲线
+
+[![Stargazers over time](https://starcharts.herokuapp.com/songjiayang/prometheus_practice.svg)](https://starcharts.herokuapp.com/songjiayang/prometheus_practice)
+  
