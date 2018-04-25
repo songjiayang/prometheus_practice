@@ -39,7 +39,11 @@ Prometheus 作为监控后起之秀，虽然还有做的不够好的地方，但
   * 个人公众号
   
   ![第二范式](https://git.io/vAQvJ)
-  
-## 鼓励项目
+ 
+- 薛锦
 
-欢迎鼓励项目一杯 coffee~
+  * [微博](https://weibo.com/1660913012/profile?topnav=1&wvr=6)
+  * [github](https://github.com/csxuejin)
+  * 个人公众号
+
+  ![GitHub Logo](https://songjiayang.gitbooks.io/go-basic-courses/content/pics/easy-hacking.jpg)
