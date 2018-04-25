@@ -95,6 +95,5 @@
     * [如何删除 Pushgateway 的数据](qa/pushgateway.md)
     * [为什么内存使用这么高](qa/memory.md)
     * [为什么有数据丢失](qa/losedata.md)
-    * [Prometheus 如何通过认证后拉取数据](qa/auth.md)
+    * [如何通过认证后拉取数据](qa/auth.md)
     * [监控 JVM](qa/jvm.md)
-    * [监控 Ruby On Rails 应用](qa/rails.md)
