@@ -1,6 +1,6 @@
 # 为什么选择 Prometheus
 
-在前言中，简单介绍了我们公司选择 Prometheus 的理由，以及使用后给我们带来的好处。
+在前言中，简单介绍了我们选择 Prometheus 的理由，以及使用后给我们带来的好处。
 
 在这里主要和其他监控方案对比，方便大家更好的了解 Prometheus。
 
@@ -32,7 +32,7 @@
 ## Prometheus vs Nagios
 
 * [Nagios](https://www.nagios.org/) 数据不支持自定义 Labels, 不支持查询，告警也不支持去噪，分组, 没有数据存储，如果想查询历史状态，需要安装插件。
-* Nagios 是上世纪 90 年代的监控系统，比较适合小集群或静态系统的监控，显然 Nagios 太古老了，很多特性都没有，Prometheus 要优秀很多。
+* Nagios 是上世纪 90 年代的监控系统，比较适合小集群或静态系统的监控，显然 Nagios 太古老了，很多特性都没有，相比之下Prometheus 要优秀很多。
 
 ## Prometheus vs Sensu
 
@@ -42,6 +42,6 @@
 ## 总结
 
 * Prometheus 属于一站式监控告警平台，依赖少，功能齐全。
-* Prometheus 支持对云的或容器的监控，其他系统主要对主机监控。
+* Prometheus 支持对云或容器的监控，其他系统主要对主机监控。
 * Prometheus 数据查询语句表现力更强大，内置更强大的统计函数。
 * Prometheus 在数据存储扩展性以及持久性上没有 InfluxDB，OpenTSDB，Sensu 好。
