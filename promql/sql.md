@@ -1,6 +1,6 @@
 # 与 SQL 对比
 
-下面我将以 Prometheus server 收集的 `http_requests_total` 时序数据为例子展开对比。
+下面将以 Prometheus server 收集的 `http_requests_total` 时序数据为例子展开对比。
 
 ## MySQL 数据准备
 

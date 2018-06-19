@@ -1,8 +1,8 @@
 # PromQL 基本使用
 
-PromQL (Prometheus Query Language) 是 Prometheus 自己开发的数据查询 DSL 语言，语言表现力非常丰富，内置函数很多，在日常数据可视化，rule 告警中都会使用到它。
+PromQL (Prometheus Query Language) 是 Prometheus 自己开发的数据查询 DSL 语言，语言表现力非常丰富，内置函数很多，在日常数据可视化以及rule 告警中都会使用到它。
 
-我们可以在页面 `http://localhost:9090/graph` 中，输入下面的查询语句，查看结果，例如：
+在页面 `http://localhost:9090/graph` 中，输入下面的查询语句，查看结果，例如：
 
 ```
 http_requests_total{code="200"}

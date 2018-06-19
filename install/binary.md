@@ -1,6 +1,6 @@
 # 二进制包安装
 
-我们可以到 Prometheus 二进制[下载页面](https://prometheus.io/download/)，选择自己需要的系统版本，下面我们将以 ubuntu server 作为演示。
+我们可以到 Prometheus 二进制安装包[下载页面](https://prometheus.io/download/)，根据自己的操作系统选择下载对应的安装包。下面我们将以 ubuntu server 作为演示。
 
 ## 环境准备
 
@@ -75,7 +75,7 @@ INFO[0000] Listening on :9090                            source=web.go:259
 
 ![prometheus-graph.png](http://7o512j.com1.z0.glb.clouddn.com/prometheus-graph.png)
 
-在默认配置中，我们已经添加了 Prometheus Server 的监控，所以我们现在可以使用 `PromQL` （Prometheus Query Language）来查看，比如
+在默认配置中，我们已经添加了 Prometheus Server 的监控，所以我们现在可以使用 `PromQL` （Prometheus Query Language）来查看，比如：
 
 ![prometheus-console.png](http://7o512j.com1.z0.glb.clouddn.com/Screen%20Shot%202017-05-17%20at%202.29.19%20PM.png)
 
