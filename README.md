@@ -28,7 +28,10 @@ Prometheus 作为监控后起之秀，虽然还有做的不够好的地方，但
 
 欢迎加入 Prometheus 技术交流 QQ 群，分享 Prometheus 资源，交流 Prometheus 技术。
 
-* QQ 群 I （可加）：465362780   申请加入请备注：prometheus 实战
+* QQ 群：465362780 (已满) 申请加入请备注：prometheus 实战
+* 加入我们的知识星球，在这里你可以和国内最专业的 Prometheus 同行一起交流和学习：
+
+  ![image_228845211141_3](https://user-images.githubusercontent.com/1459834/41642276-7101ce02-749a-11e8-8da0-6cf702af0870.JPG)
 
 ## 关于作者
 
