@@ -62,7 +62,7 @@ sample_rpc_duration_seconds_count 2693
 
 当运行此程序，你访问 `http://localhost:8080/metrics`, 将看到这样的页面：
 
-![simple exporter data](http://7o512j.com1.z0.glb.clouddn.com/sample_exporter_data.png)
+![simple exporter data](/images/exporter/sample_exporter_data.png)
 
 ## 与 Prometheus 集成
 
@@ -78,4 +78,4 @@ sample_rpc_duration_seconds_count 2693
 
 重启加载配置，然后到 Prometheus Console 查询，你会看到 `simple_exporter` 的数据。
 
-![simple exporter](http://7o512j.com1.z0.glb.clouddn.com/simple_exporter.png)
+![simple exporter](/images/exporter/simple_exporter.png)

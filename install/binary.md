@@ -73,11 +73,11 @@ INFO[0000] Listening on :9090                            source=web.go:259
 
 当 Prometheus 启动后，你可以通过浏览器来访问  `http://IP:9090`，将看到如下页面
 
-![prometheus-graph.png](http://7o512j.com1.z0.glb.clouddn.com/prometheus-graph.png)
+![prometheus-graph.png](/images/install/prometheus-graph.png)
 
 在默认配置中，我们已经添加了 Prometheus Server 的监控，所以我们现在可以使用 `PromQL` （Prometheus Query Language）来查看，比如：
 
-![prometheus-console.png](http://7o512j.com1.z0.glb.clouddn.com/Screen%20Shot%202017-05-17%20at%202.29.19%20PM.png)
+![prometheus-console.png](/images/install/prometheus-console.png)
 
 ## 总结
 

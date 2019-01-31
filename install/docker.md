@@ -16,7 +16,7 @@ $ docker run --name prometheus -d -p 127.0.0.1:9090:9090 quay.io/prometheus/prom
 
 如果安装成功你可以访问 `127.0.0.1:9090` 查看到该页面:
 
-![prometheus-graph.png](http://7o512j.com1.z0.glb.clouddn.com/prometheus-graph.png)
+![prometheus-graph.png](/images/install/prometheus-graph.png)
 
 ## Docker 管理 prometheus
 

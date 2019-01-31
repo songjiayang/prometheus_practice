@@ -9,7 +9,7 @@
 
 当你采用以上任一方式执行 reload 成功的时候，将在 promtheus log 中看到如下信息：
 
-![hotreload.png](http://7o512j.com1.z0.glb.clouddn.com/reload_success.png)
+![hotreload.png](/images/qa/reload_success.png)
 
 如果因为配置信息填写不正确导致更新失败，将看到类似信息：
 

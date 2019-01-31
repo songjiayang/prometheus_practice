@@ -19,11 +19,11 @@ Step1: 为 #test 频道创建一个 incomming webhooks 应用。
 
 - 点击频道标题，选择 `Add an app or integration`
 
-![Add an app or integration](http://www.songjiayang.com/images/slack-alert1.png)
+![Add an app or integration](/images/alertmanager/slack-alert1.png)
 
 - 在 app store 中搜索 `incomming webhooks`，选择第一个
 
-![incomming webhooks](http://www.songjiayang.com/images/slack-alert2.png)
+![incomming webhooks](/images/alertmanager/slack-alert2.png)
 
 创建成功以后，拷贝 app webhook 地址，后面会用到。
 
@@ -93,10 +93,10 @@ receivers:
 
 经过以上配置，我们收到的消息是这样：
 
-![slack.alert.demo](http://www.songjiayang.com/images/slack-alert5.png)
+![slack.alert.demo](/images/alertmanager/slack-alert5.png)
 
 点击 title 或者 Click here，即可跳转到 Prometheus graph 页面：
 
-![prometheus graph](http://www.songjiayang.com/images/slack-alert6.png)
+![prometheus graph](/images/alertmanager/slack-alert6.png)
 
 这样就很方便了，再也不用担心多个 Prometheus 节点，切换查询带来的烦恼。
