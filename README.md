@@ -112,7 +112,7 @@ Prometheus 作为监控后起之秀，虽然还有做的不够好的地方，但
 
 欢迎加入 Prometheus 技术交流微信群，分享 Prometheus 资源，交流 Prometheus 技术。
 
-* 微信群：![weixin.jpeg](/images/qrcode.jpeg)
+* 微信群：![weixin.jpeg](https://user-images.githubusercontent.com/1459834/177047283-e60ce419-e499-42d8-89d5-f378b8bccbea.jpeg)
 
 ## 关于作者
 
