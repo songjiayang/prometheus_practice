@@ -110,10 +110,9 @@ Prometheus 作为监控后起之秀，虽然还有做的不够好的地方，但
 
 ## 技术交流
 
-欢迎加入 Prometheus 技术交流 QQ 群，分享 Prometheus 资源，交流 Prometheus 技术。
+欢迎加入 Prometheus 技术交流微信群，分享 Prometheus 资源，交流 Prometheus 技术。
 
-* QQ 群：465362780 (已满) 申请加入请备注：prometheus 实战
-* 微信群：(待补充)
+* 微信群：![weixin.jpeg](/images/qrcode.jpeg)
 
 ## 关于作者
 
