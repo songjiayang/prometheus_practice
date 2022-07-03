@@ -57,7 +57,7 @@ docker run --name prometheus \
     quay.io/prometheus/prometheus:latest
 ```
 
-此时在 `$(pwd)/examples` 目录下将生产一个 tsdb 目录，存储 Promtheus 时许数据。
+此时在 `$(pwd)/examples` 目录下将生产一个 tsdb 目录，存储 Promtheus 时序数据。
 
 - 开启 Lifecycle API
 
@@ -76,5 +76,5 @@ docker run --name prometheus \
     --web.enable-lifecycle
 ```
 
-当重新执行 Docker 命令后, 当更新 `examples/prometheus.yml` 后，可以通过 `curl -X POST http://localhost:9090/-/reload` 动态加载配置文件。
+当重新执行 Docker 命令后并更新 `examples/prometheus.yml` 后，可以通过 `curl -X POST http://localhost:9090/-/reload` 动态加载配置文件。
 
