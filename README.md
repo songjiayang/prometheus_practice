@@ -46,7 +46,6 @@ Prometheus 作为监控后起之秀，虽然还有做的不够好的地方，但
 * [数据可视化](visualiztion/README.md)
   * [Web Console](visualiztion/console.md)
   * [Grafana](visualiztion/grafana.md)
-  * [Promlens](visualiztion/promlens.md)
 * [Prometheus 配置](configuration/README.md)
   * [全局配置](configuration/global.md)
   * [告警配置](configuration/alerting.md)

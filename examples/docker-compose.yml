@@ -1,0 +1,27 @@
+version: '3.4'
+services:
+  grafana:
+    image: grafana/grafana:latest
+    pull_policy: always
+    environment:
+      - GF_AUTH_ANONYMOUS_ENABLED=true
+      - GF_AUTH_ANONYMOUS_ORG_ROLE=Admin
+      - GF_LOG_MODE=console
+      - GF_LOG_LEVEL=critical
+    ports:
+      - 3000:3000
+
+  prometheus:
+    image: prom/prometheus:latest
+    command:
+      - --config.file=/etc/prometheus/prometheus.yml
+      - --log.level=error
+      - --storage.tsdb.path=/prometheus
+      - --web.console.libraries=/usr/share/prometheus/console_libraries
+      - --web.console.templates=/usr/share/prometheus/consoles
+      - --web.enable-lifecycle
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+      - ./tsdb:/prometheus
+    ports:
+      - 9090:9090
