@@ -106,7 +106,7 @@ SELECT * from http_requests_total WHERE code="200" AND handler="query" AND creat
 
 ```
 // PromQL
-http_requests_total{code~="2xx"}
+http_requests_total{code=~"2xx"}
 
 // MySQL
 SELECT * from http_requests_total WHERE code LIKE "%2%" AND created_at BETWEEN 1495435700 AND 1495435710;
