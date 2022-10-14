@@ -11,7 +11,7 @@ Docker 镜像地址 [Quay.io](https://quay.io/repository/prometheus/prometheus)
 执行命令安装:
 
 ```
-$ docker run --name prometheus -d -p 9090:9090 quay.io/prometheus/prometheus
+$ docker run --name prometheus -d -p 9090:9090 quay.io/prometheus/prometheus:v2.39.1
 ```
 
 如果安装成功你可以访问 `127.0.0.1:9090` 查看到该页面:

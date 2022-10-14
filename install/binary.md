@@ -5,7 +5,7 @@
 ## 环境准备
 
 * linux amd64 (ubuntu server)
-* prometheus 1.6.2
+* prometheus 2.39.1
 
 ## 下载 Prometheus Server
 
@@ -19,7 +19,7 @@ cd ~/Download
 使用 wget 下载 Prometheus 的安装包
 
 ```
-wget https://github.com/prometheus/prometheus/releases/download/v1.6.2/prometheus-1.6.2.linux-amd64.tar.gz
+wget https://github.com/prometheus/prometheus/releases/download/v2.39.1/prometheus-2.39.1.linux-amd64.tar.gz
 ```
 
 创建 Prometheus 目录，用于存放所有 Prometheus 相关的运行服务
@@ -29,26 +29,27 @@ mkdir ~/Prometheus
 cd ~/Prometheus
 ```
 
-使用 tar 解压缩 prometheus-1.6.2.linux-amd64.tar.gz
+使用 tar 解压缩 prometheus-2.39.1.linux-amd64.tar.gz
 
 ```
-tar -xvzf ~/Download/prometheus-1.6.2.linux-amd64.tar.gz
-cd prometheus-1.6.2.linux-amd64
+tar -xvzf ~/Download/prometheus-2.39.1.linux-amd64.tar.gz
+cd prometheus-2.39.1.linux-amd64
 ```
 
 当解压缩成功后，可以运行 version 检查运行环境是否正常
 
 ```
-./prometheus version
+./prometheus --version
 ```
 
 如果你看到类似输出，表示你已安装成功:
 
 ```
-prometheus, version 1.6.2 (branch: master, revision: xxxx)
-  build user:       xxxx
-  build date:       xxxx
-  go version:       go1.8.1
+prometheus, version 2.39.1 (branch: HEAD, revision: dcd6af9e0d56165c6f5c64ebbc1fae798d24933a)
+  build user:       root@273d60c69592
+  build date:       20221007-15:57:09
+  go version:       go1.19.2
+  platform:         linux/amd64
 ```
 
 ## 启动 Prometheus Server
@@ -60,13 +61,13 @@ prometheus, version 1.6.2 (branch: master, revision: xxxx)
 如果 prometheus 正常启动，你将看到如下信息：
 
 ```
-INFO[0000] Starting prometheus (version=1.6.2, branch=master, revision=b38e977fd8cc2a0d13f47e7f0e17b82d1a908a9a)  source=main.go:88
-INFO[0000] Build context (go=go1.8.1, user=root@c99d9d650cf4, date=20170511-13:03:00)  source=main.go:89
-INFO[0000] Loading configuration file prometheus.yml     source=main.go:251
-INFO[0000] Loading series map and head chunks...         source=storage.go:421
-INFO[0000] 0 series loaded.                              source=storage.go:432
-INFO[0000] Starting target manager...                    source=targetmanager.go:61
-INFO[0000] Listening on :9090                            source=web.go:259
+ts=2022-10-14T13:51:37.618Z caller=main.go:499 level=info msg="No time or size retention was set so using the default time retention" duration=15d
+ts=2022-10-14T13:51:37.621Z caller=main.go:543 level=info msg="Starting Prometheus Server" mode=server version="(version=2.39.1, branch=HEAD, revision=dcd6af9e0d56165c6f5c64ebbc1fae798d24933a)"
+ts=2022-10-14T13:51:37.622Z caller=main.go:548 level=info build_context="(go=go1.19.2, user=root@273d60c69592, date=20221007-15:57:09)"
+ts=2022-10-14T13:51:37.624Z caller=main.go:549 level=info host_details="(Linux 4.9.184-linuxkit #1 SMP Tue Jul 2 22:58:16 UTC 2019 x86_64 c22888a5ec8e (none))"
+ts=2022-10-14T13:51:37.625Z caller=main.go:550 level=info fd_limits="(soft=1048576, hard=1048576)"
+ts=2022-10-14T13:51:37.627Z caller=main.go:551 level=info vm_limits="(soft=unlimited, hard=unlimited)"
+ts=2022-10-14T13:51:37.644Z caller=web.go:559 level=info component=web msg="Start listening for connections" address=0.0.0.0:9090
 ```
 
 通过启动日志，可以看到 Prometheus Server 默认端口是 9090。
