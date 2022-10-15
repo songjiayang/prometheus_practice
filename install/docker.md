@@ -50,11 +50,11 @@ CMD        [ "--config.file=/etc/prometheus/prometheus.yml", \
 - 修改配置文件和存储目录
 
 ```
-docker run --name prometheus \
+docker run --name prometheus
     -v=$(pwd)/examples/prometheus.yml:/etc/prometheus/prometheus.yml \
     -v=$(pwd)/examples/tsdb:/prometheus \
     -d -p 9090:9090 \
-    quay.io/prometheus/prometheus:latest
+    quay.io/prometheus/prometheus:v2.39.1
 ```
 
 此时在 `$(pwd)/examples` 目录下将生产一个 tsdb 目录，存储 Promtheus 时序数据。
@@ -68,7 +68,7 @@ docker run --name prometheus \
     -v=$(pwd)/examples/prometheus.yml:/etc/prometheus/prometheus.yml \
     -v=$(pwd)/examples/tsdb:/prometheus \
     -d -p 9090:9090 \
-    quay.io/prometheus/prometheus:latest \
+    quay.io/prometheus/prometheus:v2.39.1 \
     --config.file=/etc/prometheus/prometheus.yml \
     --storage.tsdb.path=/prometheus \
     --web.console.libraries=/usr/share/prometheus/console_libraries \
